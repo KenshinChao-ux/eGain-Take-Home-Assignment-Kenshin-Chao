@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
     <title>ChatBot</title>
-    <link rel="stylesheet" href="eGainTakeHomeAssignment/css/styles.css"> 
+    <link rel="stylesheet" href="./css/styles.css"> 
+    
+    <h2>Welcome! If you need help, there is a chatbot on the bottom right.</h2>
+    <div class="chaticonbubble" id="iconbtn">
+        <button class= "image-button" onclick="checkIfChatIsOpen()"></button>
+    </div>
+   
 
-    <div class="chat-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
+    <div class="chat-popup" id="mychat">
+        <form class="form-container">
         <h1>Chat</h1>
 
         <label for ="msg"><b>Message</b></label>
@@ -16,12 +22,12 @@
 
         </textarea>
 
-        <button type="submit" class="btn">Send</button>
+        <button type="submit" class="btn" onclick="somefunction()">Send</button>
         <button type="button" class="btn cancel"
-        onclick="closeForm()">Close</button>
+        onclick="checkIfChatIsOpen()">Close</button>
         </form>
     </div>
-
+    <script src= "./js/index.js"></script>
 </head>
 <body>
 </body>

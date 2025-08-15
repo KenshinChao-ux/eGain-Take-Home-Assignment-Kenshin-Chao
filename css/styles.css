@@ -1,0 +1,51 @@
+* {box-sizing: border-box;}
+/*example, affects h1 */
+h1 {
+    color: gray
+    
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+#mychat { /*make the chat hidden first. */
+    display: none;
+}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel{
+    background-color: red
+
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.chaticonbubble {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.image-button {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  background-image: url('/imgs/chaticonfromfigma.png');
+  background-size: cover;
+  border: 0;
+ 
+}
