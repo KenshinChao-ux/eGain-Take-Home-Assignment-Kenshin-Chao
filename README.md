@@ -1,3 +1,3 @@
 # eGain-SWE-Take-Home-Assignment
 
-Test
+### chat icon from Figma. Bot icon from freepik.com
