@@ -174,7 +174,7 @@ body {font-family: Georgia, serif;}
   height: 100px;
   width: 100px;
   object-fit: contain;
-  background-image: url('/imgs/chaticonfromfigma.png');
+  background-image: url('../imgs/chaticonfromfigma.png');
   background-size: cover;
   border: 0;
  
