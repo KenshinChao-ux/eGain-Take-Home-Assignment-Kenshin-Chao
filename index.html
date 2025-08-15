@@ -7,24 +7,26 @@
     <title>ChatBot</title>
     <link rel="stylesheet" href="./css/styles.css"> 
     
-    <h2>Welcome! If you need help, there is a chatbot on the bottom right.</h2>
+    <h2>Welcome! If you need help tracking a lost package there is a chatbot on the bottom right.</h2>
     <div class="chaticonbubble" id="iconbtn">
         <button class= "image-button" onclick="checkIfChatIsOpen()"></button>
     </div>
    
 
-    <div class="chat-popup" id="mychat">
-        <form class="form-container">
-        <h1>Chat</h1>
+    <div class="chat-container" id="mychat">
+        <button id="close" onclick="checkIfChatIsOpen()">X</button>            
+        
+        <header class = "header" >Chat</header>
+        <div class="chat-area" id="chatarea">
+            <div class ="msgcontainerbot">
+                <p> Hi there, how can I help? </p>
+            </div>
+         
+        </div>
+        
+    
 
-        <label for ="msg"><b>Message</b></label>
-        <textarea placeholder="Type message..." name="msg" required>
 
-        </textarea>
-
-        <button type="submit" class="btn" onclick="somefunction()">Send</button>
-        <button type="button" class="btn cancel"
-        onclick="checkIfChatIsOpen()">Close</button>
         </form>
     </div>
     <script src= "./js/index.js"></script>
