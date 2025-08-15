@@ -26,8 +26,8 @@ If u choose to try another tracking number, it will prompt again for a tracking 
 
 <img width="240" height="240" alt="image" src="https://github.com/user-attachments/assets/a117524d-b788-41af-9028-d63920911e13" />
 
-As well as ask for another tracking number if given an invalid answer (letters or empty or mixed). 
-If something goes entirely wrong and somehow its not in the database or a unforeseen event, then it will prompt you to reach a live agent or call the number.
+As well as ask for another tracking number if given an invalid answer (letters or empty or mixed). [ERROR1]
+If something goes entirely wrong and somehow its not in the database or a unforeseen event, then it will prompt you to reach a live agent or call the number. [ERROR2]
 
 <img width="341" height="371" alt="image" src="https://github.com/user-attachments/assets/019f19b0-4763-409e-a913-4233fe3b36b0" />
 
