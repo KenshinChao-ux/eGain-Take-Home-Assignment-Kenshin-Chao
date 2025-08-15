@@ -1,9 +1,5 @@
-* {box-sizing: border-box;}
-/*example, affects h1 */
-h1 {
-    color: rgb(0, 0, 0)
-    
-}
+* {box-sizing: border-box; }
+body {font-family: Georgia, serif;}
 
 .chat-container {
   width: 300px;
@@ -17,8 +13,34 @@ h1 {
   
 }
 
-#submit{
+.btnsubmit{
    background-color: #04AA6D;
+   top: 2px;
+   right: -120px;
+   height: 10;
+}
+
+.btnsubmit:hover{
+  opacity: .8;
+}
+
+.btnyes:hover{
+  opacity: .8;
+}
+
+.btnno:hover{
+  opacity: .8;
+}
+
+
+.btnyes{
+   background-color: #04AA6D;
+   top: 2px;
+   right: -120px;
+   height: 10;
+}
+.btnno{
+   background-color: #ff4c4c;
    top: 2px;
    right: -120px;
    height: 10;
@@ -61,10 +83,10 @@ h1 {
 }
 
 #chatarea {
-    background-color: bisque;
-    height: 87%;
-    width: 100%;
- overflow: auto; /* Adds scrollbars only when needed */
+  background-color: bisque;
+  height: 87%;
+  width: 100%;
+  overflow: auto; /* Adds scrollbars only when needed */
 }
 
 .msgcontainerbot {
@@ -119,7 +141,7 @@ h1 {
   right: -45px;
   position: absolute;
   top: 5px;
-  max-width: 45px;
+  max-width: 40px;
   width: 80%;
 
   border-radius: 50%;
@@ -157,3 +179,4 @@ h1 {
   border: 0;
  
 }
+

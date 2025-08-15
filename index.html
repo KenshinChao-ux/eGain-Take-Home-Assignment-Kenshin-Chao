@@ -7,63 +7,39 @@
     <title>ChatBot</title>
     <link rel="stylesheet" href="./css/styles.css"> 
     
+</head>
+<body>
+    
     <h2>Welcome! If you need help tracking a lost package there is a chatbot on the bottom right.</h2>
-    <div class="chaticonbubble" id="iconbtn">
-        <button class= "image-button" onclick="checkIfChatIsOpen()"></button>
+    <div class="chaticonbubble" id="iconbtn"> 
+        <button class= "image-button" onclick="checkIfChatIsOpen()"></button> <!-- clicking on the livechat button will execute function-->
     </div>
    
 
     <div class="chat-container" id="mychat">
-        <button id="close" onclick="checkIfChatIsOpen()">X</button>            
+        <button id="close" onclick="checkIfChatIsOpen()">X</button>         <!-- close the chat -->    
         
-        <header class = "header" >Chat</header>
+        <header class = "header" >Chatbot</header>
         <div class="chat-area" id="chatarea">
             <div class ="msgcontainerbot">
                 <img class ="botimg" src = "./imgs/boticon.png">
-                <p>Hi there! <br> I’d be happy to help you track your package! <br> <br> Could you share your tracking number so we can see where it is right now?
+                <p>"Hi there! 😊 I’d be glad to help you track your package. Could you please share your 12-digit tracking number so I can look it up for you right away!"
                 </p>
             </div>
-             <div class ="msgcontaineruser">
+            <div class ="msgcontaineruser">
                 <img class ="userimg" src = "./imgs/usericon.png">
-                <input type="text" maxlength ="12" id="singleLineInput" name="singleLineText"></textarea>
-                <button class="btn" id ="submit" onclick="submitTrackingId()">
+                <input type="text" maxlength ="12" id="singleLineInput0">
+                <button class="btnsubmit" id ="submit0" onclick="submitTrackingId()">  
                     submit
-                </button>    
-            
+                </button>     
             </div>
-            
-         <ul class = "no-bullets">
-                <li>
-                    <button class ="btn" onclick="choseChoice">
-                        Restart                        
-                    </button>
-                </li>
-                <li>
-                    <button class ="btn">
-                        hi                        
-                    </button>
-                </li>
-                <li>
-                    <button class ="btn">
-                        hi                        
-                    </button>
-                </li>
-                <li>
-                    <button class ="btn">
-                        hi                        
-                    </button>
-                </li>
-                       
-                </ul>
+                
         </div>
         
-    
+        
 
-
-        </form>
     </div>
     <script src= "./js/index.js"></script>
-</head>
-<body>
+
 </body>
 </html>
