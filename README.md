@@ -32,6 +32,6 @@ If something goes entirely wrong and somehow its not in the database or a unfore
 <img width="341" height="371" alt="image" src="https://github.com/user-attachments/assets/019f19b0-4763-409e-a913-4233fe3b36b0" />
 
 
-### chat icon from Figma. Bot and user icon from freepik.com
+# chat icon from Figma. Bot and user icon from freepik.com
 
 
